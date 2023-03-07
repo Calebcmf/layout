@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 12</title>
+    <style>
+         body 
+        {
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+        }
+        .fundo
+        {
+            width: 60%;
+            height: 100vh;
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .baixo
+        {
+            height: 55%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(20, 97, 185);
+        }
+        .retangulos
+        {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color:rgb(20, 97, 185);  
+        }
+        .d1
+        {
+            height: 44%;
+            width: 100%;
+            background-color: yellow; 
+        }
+        .d2
+        {
+            height: 100%;
+            width: 25%;
+            background-color: yellow; 
+        }
+        .cima
+        {
+            height: 25%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(20, 97, 185);
+        }
+        .d3
+        {
+            height: 100%;
+            width: 30%;
+            background-color: yellow; 
+        }
+        .d4
+        {
+            height: 100%;
+            width: 60%;
+            background-color: yellow; 
+        }
+    </style>
+</head>
+<body>
+   <div class="fundo">
+        <div class="cima">
+            <div class="d3"></div>
+            <div class="d4"></div>
+        </div>
+        <div class="baixo">
+            <div class="retangulos">
+                <div class="d1"></div>
+                <div class="d1"></div>
+            </div>
+            <div class="d2"></div>
+        </div>
+   </div>
+</body>
+</html>
