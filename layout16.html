@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout 13</title>
+    <title>Layout 16</title>
     <style>
-        body 
+         body 
         {
             width: 100vw;
             height: 100vh;
@@ -24,67 +24,81 @@
             height: 100vh;
             background-color: rgb(20, 97, 185);
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             align-content: center;
             justify-items: center;
             justify-content: center;
             justify-content: space-around;
         }
-        .retangulo
+        .baixo
         {
-            height:80%;
-            width: 20%;
-            background-color: yellow; 
-        }
-        .direita
-        {
-            height: 80%;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color:rgb(20, 97, 185);
-        }
-        .d1
-        {
-            height: 30%;
-            width: 100%;
-            background-color: yellow; 
-        }
-        .quadrados
-        {
-            height: 30%;
-            width: 100%;
-            background-color: rgb(20, 97, 185); 
+            height: 60%;
+            width: 80%;
+            background-color: rgb(20, 97, 185);
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
-        .d2
+        .esquerda
         {
+            width: 60%;
             height: 100%;
-            width: 40%;
-            background-color: yellow; 
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .quadrados
+        {
+            width: 80%;
+            height: 20%;
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+        }
+        .d1
+        {
+            width: 20%;
+            height: 100%;
+            background-color: yellow;
         }
         .d3
         {
-            height: 30%;
             width: 100%;
-            background-color: yellow; 
+            height: 100%;
+            background-color: yellow;
+        }
+        .d2
+        {
+            width: 100%;
+            height: 40%;
+            background-color: yellow;
+        }
+        .direita
+        {
+            width: 20%;
+            height: 100%;
+            background-color: rgb(20, 97, 185);
         }
     </style>
 </head>
 <body>
     <div class="fundo">
-        <div class="retangulo"></div>
-        <div class="direita">
+        <div class="quadrados">
             <div class="d1"></div>
-            <div class="quadrados">
+            <div class="d1"></div>
+            <div class="d1"></div>
+        </div>
+        <div class="baixo">
+            <div class="esquerda">
                 <div class="d2"></div>
                 <div class="d2"></div>
             </div>
-            <div class="d3"></div>
+            <div class="direita">
+                <div class="d3"></div>
+            </div>
         </div>
     </div>
 </body>
