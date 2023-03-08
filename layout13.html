@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 01</title>
+    <style>
+        body 
+        {
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+        }
+        .fundo
+        {
+            width: 70%;
+            height: 100vh;
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .retangulo
+        {
+            height:80%;
+            width: 20%;
+            background-color: yellow; 
+        }
+        .direita
+        {
+            height: 80%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color:rgb(20, 97, 185);
+        }
+        .d1
+        {
+            height: 30%;
+            width: 100%;
+            background-color: yellow; 
+        }
+        .quadrados
+        {
+            height: 30%;
+            width: 100%;
+            background-color: rgb(20, 97, 185); 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .d2
+        {
+            height: 100%;
+            width: 40%;
+            background-color: yellow; 
+        }
+        .d3
+        {
+            height: 30%;
+            width: 100%;
+            background-color: yellow; 
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <div class="retangulo"></div>
+        <div class="direita">
+            <div class="d1"></div>
+            <div class="quadrados">
+                <div class="d2"></div>
+                <div class="d2"></div>
+            </div>
+            <div class="d3"></div>
+        </div>
+    </div>
+</body>
+</html>
