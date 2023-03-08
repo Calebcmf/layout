@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout 01</title>
+    <title>Layout 18</title>
     <style>
         body 
         {
@@ -31,10 +31,10 @@
             justify-content: center;
             justify-content: space-around;
         }
-        .baixo
+        .cima
         {
             width: 80%;
-            height: 65vh;
+            height: 60%;
             background-color: rgb(20, 97, 185);
             display: flex;
             flex-direction: row;
@@ -43,19 +43,34 @@
         .d7
         {
             width: 80%;
-            height: 20vh;
-            background-color: yellow;  
+            height: 25%;
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+        }
+        .d8
+        {
+            height: 100%;
+            width: 60%;
+            background-color: yellow;
+        }
+        .d9
+        {
+            height: 100%;
+            width: 25%;
+            background-color: yellow;
         }
         .d1
         {
-            height: 65vh;
+            height: 100%;
             width: 25%;
             background-color: yellow;
         }
         .d2
         {
             width: 60%;
-            height: 65vh;
+            height: 100%;
             background-color: rgb(20, 97, 185);
             display: flex;
             flex-direction: column;
@@ -63,13 +78,13 @@
         }
         .d6
         {
-            height: 30vh;
+            height: 45%;
             width: 100%;
             background-color: yellow;
         }
-        .d3
+        .quadrados
         {
-            height: 30vh;
+            height: 40%;
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -78,7 +93,7 @@
         }
         .d5
         {
-            height: 30vh;
+            height: 100%;
             width: 35%;
             background-color: yellow; 
         }
@@ -86,17 +101,20 @@
 </head>
 <body>
     <div class="fundo">
-        <div class="d7"></div> 
-        <div class="baixo">
+        <div class="cima">
+            <div class="d1"></div> 
             <div class="d2">
-                <div class="d3"> 
+                <div class="quadrados"> 
                     <div class="d5"></div> 
                     <div class="d5"></div> 
                 </div> 
                 <div class="d6"></div>
             </div> 
-            <div class="d1"></div> 
-        </div>  
+        </div>
+        <div class="d7">
+            <div class="d8"></div>
+            <div class="d9"></div>
+        </div>   
     </div>
 </body>
 </html>
